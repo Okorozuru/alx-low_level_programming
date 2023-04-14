@@ -29,12 +29,12 @@ int main(void)
 {
 	char **tab;
 
-	tab = strtow("      ALX School         #cisfun      ");
+tab = strtow("      ALX School         #cisfun      ");
 	if (tab == NULL)
 	{
 	printf("Failed\n");
 	return (1);
 	}
-	print_tab(tab);
+print_tab(tab);
 	return (0);
 }
